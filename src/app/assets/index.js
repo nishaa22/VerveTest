@@ -9,6 +9,8 @@ import high7 from './high7.png';
 import high8 from './high8.png';
 import high9 from './high9.png';
 import high10 from './high10.png';
+import attend from './attend.png';
+import meet from './meet.png';
 
 export const IMAGES = {
 	overview,
@@ -22,4 +24,6 @@ export const IMAGES = {
 	high8,
 	high9,
 	high10,
+	attend,
+	meet,
 };

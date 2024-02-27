@@ -1,10 +1,14 @@
+import Image from 'next/image';
 import React from 'react';
+import { IMAGES } from '../assets';
 
 const WhoMeet = () => {
 	return (
-		<section>
-			<div>Who Will You Meet?</div>
-			<div>
+		<section className="py-20">
+			<div className="text-center text-3xl py-4 font-semibold">
+				Who Will You Meet?
+			</div>
+			<div className="flex justify-between items-center">
 				<div>
 					<ol>
 						<li>CIOs, CTOs, Heads of Technology</li>
@@ -18,7 +22,9 @@ const WhoMeet = () => {
 						<li>Heads of Governance & Compliance</li>
 					</ol>
 				</div>
-				<div></div>
+				<div className="flex justify-start items-center">
+					<Image src={IMAGES.meet} height={350} width={500} />
+				</div>
 			</div>
 		</section>
 	);
